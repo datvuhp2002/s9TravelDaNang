@@ -1,15 +1,12 @@
 import React, { Component } from 'react'
-import HeaderMain from '../HeaderMain/HeaderMain'
 
 export default class Slider extends Component {
   render() {
     return (
-        <div id="carouselExampleDark" className="carousel carousel-dark slide position-relative" data-bs-ride="carousel">
-            <div className='position-absolute w-100'>
-              <HeaderMain/>
-            </div>
+      <>
+        <div id="carouselExampleDark" className="carousel carousel-dark slide" data-bs-ride="carousel">
             <div className="carousel-indicators">
-          <button type="button" data-bs-target="#carouselExampleDark" data-bs-slide-to="0" className="active" aria-current="true" aria-label="Slide 1"></button>
+            <button type="button" data-bs-target="#carouselExampleDark" data-bs-slide-to="0" className="active" aria-current="true" aria-label="Slide 1"></button>
           <button type="button" data-bs-target="#carouselExampleDark" data-bs-slide-to="1" aria-label="Slide 2"></button>
           <button type="button" data-bs-target="#carouselExampleDark" data-bs-slide-to="2" aria-label="Slide 3"></button>
             </div>
@@ -45,6 +42,7 @@ export default class Slider extends Component {
               <span className="visually-hidden">Next</span>
             </button>
       </div>
+      </>
     )
   }
 }

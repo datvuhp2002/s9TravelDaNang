@@ -4,6 +4,9 @@
   padding:0px;
 }
 /* css cho cac the chung */
+header{
+  z-index: 100;
+}
 ul{
   list-style-type: none;
   margin:0px;
@@ -37,5 +40,13 @@ code {
   align-items: center;
 }
 .HeaderMain{
-  z-index: 999;
+  background-color: rgba(225,235,241,0.5);
+  height: 75px;
+  align-items: center;
+  
+}
+.box{
+  height: 10000px;
+  width: 100%;
+  background-color: black;
 }

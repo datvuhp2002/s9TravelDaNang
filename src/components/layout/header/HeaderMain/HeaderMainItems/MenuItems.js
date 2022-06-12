@@ -4,7 +4,7 @@ import { AiOutlineSearch } from "react-icons/ai";
 export default class MenuItems extends Component {
   render() {
     return (
-        <ul className='d-flex align-items-center '>
+        <ul className='d-flex align-items-center me-2'>
             <li><a className = "text-white" href="/#">Trang chủ</a></li>
             <li><a className = "text-white" href="/#">Giới thiệu</a></li>
             <li><a className = "text-white" href="/#">Tour quốc tế</a></li>
